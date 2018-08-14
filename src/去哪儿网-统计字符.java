@@ -7,19 +7,28 @@ public class Main{
         Scanner in = new Scanner(System.in);
 
         String str = in.nextLine();
-        str = str.toLowerCase();
-        str = str.replace(" ", "");
-        System.out.println(str);
-        int[] bucket = new int[26];
-        Arrays.fill(bucket, 0);
+
+        int[] bucketLower = new int[26];
+        int[] bucketUpper = new int[26];
+        Arrays.fill(bucketLower, 0);
+        Arrays.fill(bucketUpper, 0);
 
         char[] cs = str.toCharArray();
         for(char c : cs){
-            bucket[c-'a']++;
-            if(bucket[c-'a']==3){
-                System.out.println(c);
-                break;
+            if(c>='a'&&c<='z'){
+                bucketLower[c-'a']++;
+                if(bucketLower[c-'a']==3){
+                    System.out.println(c);
+                    break;
+                }
+            }else if(c>='A'&&c<='Z'){
+                bucketUpper[c-'A']++;
+                if(bucketUpper[c-'A']==3){
+                    System.out.println(c);
+                    break;
+                }
             }
+            
         }
     }
 
