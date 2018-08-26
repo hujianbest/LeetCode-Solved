@@ -1,3 +1,11 @@
+/**
+ * 如果可以通过将 A 中的两个小写字母精确地交换位置 K 次得到与 B 相等的字符串,
+ * 我们称字符串 A 和 B 的相似度为 K(K 为非负整数).
+ * 给定两个字母异位词 A 和 B ，返回 A 和 B 的相似度 K 的最小值.
+ */
+
+
+
 import java.util.Set;
 import java.util.HashSet;
 import java.util.LinkedList;
