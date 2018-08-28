@@ -1,72 +1,72 @@
-Array
+Array--数组
 </br>
-Hash Table
+Hash Table--哈希表
 </br>
-Linked List
+Linked List--链表
 </br>
 Math
 </br>
-Two Pointers
+Two Pointers--双指针
 </br>
-String
+String--字符串
 </br>
-Binary Search
+Binary Search--二分查找
 </br>
-Divide and Conquer
+Divide and Conquer--分治
 </br>
-Dynamic Prigramming
+Dynamic Prigramming--动态规划
 </br>
-Backtracking
+Backtracking--回溯算法
 </br>
-Stack
+Stack--栈
 </br>
-Heap
+Heap--堆
 </br>
-Greedy
+Greedy--贪婪算法
 </br>
-Sort
+Sort--排序
 </br>
-Bit Manipulation
+Bit Manipulation--位运算
 </br>
-Tree
+Tree--树
 </br>
-Depth-first Search
+Depth-first Search--深度优先搜索
 </br>
-Breadth-first Search
+Breadth-first Search--广度优先搜索
 </br>
-Union Find
+Union Find--并查集
 </br>
-Graph
+Graph--图
 </br>
-Design
+Design--设计
 </br>
-Topological Sort
+Topological Sort--拓扑排序
 </br>
-Trie
+Trie--字典树
 </br>
-Binary Indexed Tree
+Binary Indexed Tree--二分索引树（树状数组）
 </br>
-Segment Tree
+Segment Tree--线段树
 </br>
-Binary Search Tree
+Binary Search Tree--二分查找树
 </br>
-Recursion
+Recursion--递归
 </br>
-Brainteaser
+Brainteaser--难题
 </br>
-Memorization
+Memorization--记忆
 </br>
-Queue
+Queue--队列
 </br>
-Minimax
+Minimax--极小化极大算法（极大极小值算法），是一种找出失败的最大可能性中的最小值的算法。
 </br>
-Reservoir Sampling
+Reservoir Sampling--蓄水池采样
 </br>
-Geometry
+Geometry--几何问题
 </br>
-Map
+Map--map
 </br>
-Random
+Random--随机
 </br>
-Rejection Sampling
+Rejection Sampling--拒绝采样
 </br>
