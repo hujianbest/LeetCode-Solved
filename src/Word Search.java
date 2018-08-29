@@ -15,7 +15,7 @@ class Solution {
 
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                if(DFS(board, i, j, word,0)) return true;
+                if(DFS(board, i, j, word,0)) return true;\
             }
         }
 
