@@ -1,3 +1,9 @@
+/**
+ * “水仙花数”是指一个三位数，它的各位数字的立方和等于其本身，
+ * 比如：153=1^3+5^3+3^3。 现在要求输出所有在m和n范围内的水仙花数。
+ */
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
