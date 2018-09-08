@@ -13,7 +13,7 @@ public class Main{
 
         for(int i=n/2;i>=2;i--){
 
-            if(((n-(i*(i-1)/2))%i)==0&&((n-(i*(i+1)/2))/i)>0){
+            if(((n-(i*(i-1)/2))%i)==0&&((n-(i*(i-1)/2))/i)>0){
                 int num = (n-(i*(i-1)/2))/i;
                 List<Integer> list = new ArrayList<>();
                 for(int k=0;k<i;k++){
