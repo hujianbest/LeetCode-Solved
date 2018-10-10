@@ -25,7 +25,7 @@ class Solution {
                 while(set.contains(y)){
                     y+=1;
                 }
-                max = Math.max(max, y-n+1);
+                max = Math.max(max, y-n);
             }
         }
         return max;
