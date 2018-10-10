@@ -19,9 +19,9 @@ class Solution {
             set.add(n);
         }
         
-        for(int n:set){//set遍历就会从最小的hashcode开始了，其实也就是最小的数
+        for(int n:set){//set遍历就会从最小的hashcode开始了，其实也就是最小的数//之前理解有误，跟是不是从最小开始遍历没关系，set也不会保证从最小开始遍历
             if(!set.contains(n-1)){//如果没有n-1，就要重新开始了
-                int y = n + 1;      //有的话就是遍历过了，因为从小的开始
+                int y = n + 1;      //有的话就不用管了，早晚都会遍历到的
                 while(set.contains(y)){
                     y+=1;
                 }
